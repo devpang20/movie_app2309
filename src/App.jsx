@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from "./Pages/Home"
-import Moive from "./Pages/Movie"
+import MoiveList from "./Pages/MovieList"
 import Header from "./Components/Header"
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Routes>
         <Route index element={<Home />} />
-        <Route path="movie" element={<Moive />}/>
+        <Route path="movies/:type" element={<MoiveList />} />
       </Routes>
     </BrowserRouter>
   )

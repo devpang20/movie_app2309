@@ -8,9 +8,9 @@ export default function Header () {
                 <Link to="/">
                     <Img src={logoImg} alt="로고" />
                 </Link>
-                <Link to="/popular">Popular</Link>
-                <Link to="/top_rated">Top rated</Link>
-                <Link to="/upcoming">Upcoming</Link>
+                <Link to="/movies/popular">Popular</Link>
+                <Link to="/movies/top_rated">Top rated</Link>
+                <Link to="/movies/upcoming">Upcoming</Link>
             </Cell>
         </Container>
     )
