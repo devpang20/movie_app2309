@@ -13,7 +13,7 @@ export default function MoiveList () {
         )
             .then((res) => res.json())
             .then((data) => {
-            console.log(data)
+            //console.log(data)
             setMovies(data.results)
         })
      }, [params.type])
