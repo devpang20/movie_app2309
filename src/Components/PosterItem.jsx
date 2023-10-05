@@ -4,7 +4,7 @@ export default function PosterItem ({movie}) {
     return (
         <Container>
             <ImgBox>
-                <img src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`} alt="" />
+                <img src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path}`} alt="영화 포스터" />
             </ImgBox>
             <Overlay>
                 <Title>{movie.original_title}</Title>

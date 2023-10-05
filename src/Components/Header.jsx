@@ -10,7 +10,7 @@ export default function Header () {
                 </Link>
                 <Link to="/popular">Popular</Link>
                 <Link to="/top_rated">Top rated</Link>
-                <Link to="/ppcoming">Upcoming</Link>
+                <Link to="/upcoming">Upcoming</Link>
             </Cell>
         </Container>
     )
